@@ -1,0 +1,19 @@
+{
+  "name": "sourcecode",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress open",
+    "chrome": "cypress run --browser chrome --headed"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "13.7.2"
+  },
+  "devDependencies": {
+    "@types/cypress": "^1.1.3"
+  }
+}
