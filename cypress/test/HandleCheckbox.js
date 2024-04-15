@@ -1,3 +1,5 @@
+const { it } = require("mocha");
+
 const CHECKBOX = '[type="checkbox"]'
 
 describe('Handling checkboxes', () => {
@@ -6,7 +8,6 @@ describe('Handling checkboxes', () => {
         cy.visit('the-internet.herokuapp.com/checkboxes')
 
         //Try to unselect the second checkbox
-
         cy.get(CHECKBOX).eq(1).click()
 
         //Verify all checkboxes are unselected
@@ -17,5 +18,5 @@ describe('Handling checkboxes', () => {
             cy.get(item).click({multiple : true});
         })
     });
-    
+    it('')
 });

@@ -1,3 +1,5 @@
+const { it } = require("mocha");
+
 describe('Multiple elems matching interaction', () => {
     it('should be able to interact with list ò element', ()=>{
         
@@ -27,5 +29,7 @@ describe('Multiple elems matching interaction', () => {
         // cy.get("button[type = 'submit']").click()
 
         cy.wait(3000)
-    })
-})
+
+    });
+    
+});

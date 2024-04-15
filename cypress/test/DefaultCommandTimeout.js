@@ -3,6 +3,7 @@ describe('Exploring default command time out', {defaultCommandTimeout: 5000}, ()
         cy.visit("/login")
         cy.get("#test", {timeout: 10000}).type("abc") //set time out riêng
         
+        
 
     })
     
